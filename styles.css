@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.2em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.form-container {
+    background: #4286f4;
+}
+
+legend {
+    font-size: 1.2em;
+}
+
+input,
+textarea {
+    font-family: 'Crimson Text', serif;
+    font-size: 1em;
+    min-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    outline: none;
+    background: #000000;
+    color: #FFFFFF;
+}
