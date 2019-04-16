@@ -193,33 +193,30 @@
     </div>
     <hr class="mobile-first">
     <!-- start of contact form -->
-    <h1>Contact Info</h1>
-    <section id="contact" class="form-container">
-        <br class="mobile-first"><br class="mobile-first">
-        <div>
-            <form>
-                <fieldset>
-                    <legend>&nbsp;&nbsp; F O R M &nbsp;G O E S &nbsp; H E R E&nbsp;&nbsp;</legend>
-
-                    <br>
-                    <br>
-                    <label for="message">Message</label>
-                    <br>
-                    <textarea name="message" id="message"></textarea>
-                    <input type="radio" name="yes-no" value="Yes" checked> Yes
-                    <input type="radio" name=yes-no value="No"> No<br>
-                    <br class="mobile-first"><br class="mobile-first">
-                    <br>
-                    <br>
-                    <button type="submit">Send<br></button>
-                    <p>
-                        LEFT EMPTY ON PURPOSE
-                    </p>
-                    <br class="mobile-first"><br class="mobile-first">
-                </fieldset>
-            </form>
-        </div>
+    
+    <section class="form-container">
+        <h1>Contact Info</h1>
+        <form class="contact" method="POST" action="https://formspree.io/G00280483@stu.raritanval.edu">
+            <fieldset>
+                <legend>Email</legend>
+                <input type="email" name="email">
+                <br>
+                <br>
+                 <label for="message">Message</label>
+                 <br>
+            <textarea name="message" id="message"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Reply</legend>
+                <input type="radio" name="yes-no" value="Yes" checked> Yes<br>
+                <input type="radio" name=yes-no value="No"> No<br>
+            </fieldset>
+            <br>
+            <br>
+            <button type="submit">Send<br></button>
+        </form>
     </section>
+
     <!-- end of contact form -->
     <!-- start of footer -->
     <footer>
